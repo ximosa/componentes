@@ -23,7 +23,7 @@ class HeaderComponent extends HTMLElement {
     </label>
       
       
-       <a class="circle transparent" href="/blog" >   <i  class="pink-text">rss_feed</i>
+       <a class="circle transparent" href="./blog" >   <i  class="pink-text">rss_feed</i>
       
        </a>
       
@@ -54,7 +54,7 @@ class HeaderComponent extends HTMLElement {
               <h5 class="max">Menú</h5>
             </nav>
           </header>
-          <a class="row round" href="/search">
+          <a class="row round" href="./blog">
             <i>inbox</i>
             <span>Blog</span>
             <div class="max"></div>
