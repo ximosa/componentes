@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webgae Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.js"></script>
+    <script src="componentes/header-component.js" defer></script>
+  </head>
+<body>
+  <header-component></header-component>
+    <div id="app" class="responsive large-padding">
+        <h1 class="large-text primary-text center-align">Webgae Blog</h1>
+        <hr class="medium">
+        <div id="error-message" class="card error center-align" style="display: none;">
+            <p class="error-text"></p>
+            <button id="retry-button" class="button primary">Intentar de nuevo</button>
+        </div>
+        <div id="categories" class="center-align middle-align"></div>
+        <div id="posts" class="large-padding" style="max-width: 800px; margin: auto;"></div>
+        <div id="loading" class="center-align">
+            <p>Cargando posts...</p><progress class="circle small"></progress>
+
+        </div>
+        <div id="load-more" class="center-align" style="display: none;">
+            <button class="button large secondary round" onclick="loadMorePosts()">Cargar más posts</button>
+        </div>
+    </div>
+    <footer-component></footer-component>
+    <script src="/componentes/footer-component.js"></script>
+    <script src="/componentes/scripts-component.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+

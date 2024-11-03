@@ -5,14 +5,14 @@ class HeaderComponent extends HTMLElement {
   
     connectedCallback() {
       this.innerHTML = `
-      <header class="fixed surface-container-lowest" >
-      <nav class=" surface-container-lowest top" id="navbar">
+      <header class="surface-container-lowest" >
+      <nav id="navbar" class="fixed surface-container-lowest top">
           <button data-ui="#dialog-navigation" class="circle transparent">
             <i>menu</i>
           </button>
       
        <h5 class="small max ">
-         <a class="l m" href="/" >  Webgae   </a> <a href="/" > <button class="circle transparent"> <img class="responsive surface-bright" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKYrnrh3gKnagG-HCAb44qxmdDUO6sKVM2ntkNf5JM4gVtvwpPQ1TmJQ2UBpBuk2eOVbjQqhCMarOUq0guy76z-6-tlSuI0JFflGImsdKZFFoej9a5NzIVrDRYGf2jbyV1tpaVsjJcRs8J646OQHiJo72dsoV78RuOXNa5EfDXG5hDJjghhBtspWh-lHw/s1600/logo-1-150x150.png" />    </button> </a>  
+    <a href="/" > <button class="circle transparent"> <img class="responsive surface-bright" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKYrnrh3gKnagG-HCAb44qxmdDUO6sKVM2ntkNf5JM4gVtvwpPQ1TmJQ2UBpBuk2eOVbjQqhCMarOUq0guy76z-6-tlSuI0JFflGImsdKZFFoej9a5NzIVrDRYGf2jbyV1tpaVsjJcRs8J646OQHiJo72dsoV78RuOXNa5EfDXG5hDJjghhBtspWh-lHw/s1600/logo-1-150x150.png" />    </button> </a>  
       </h5>
        
        <button class="circle transparent">
@@ -28,7 +28,7 @@ class HeaderComponent extends HTMLElement {
           </button>
       
       
-       <a class="circle transparent" href="/search" >   <i  class="pink-text">rss_feed</i>
+       <a class="circle transparent" href="/blog" >   <i  class="pink-text">rss_feed</i>
       
        </a>
       
