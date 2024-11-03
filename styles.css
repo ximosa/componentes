@@ -1,0 +1,17 @@
+/* Contenedor para la cuadrícula de posts */
+#posts {
+    display: grid;
+    gap: 1rem; /* Espacio entre posts */
+}
+
+/* Dos columnas en pantallas medianas y grandes */
+.two-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Ajuste a una columna en pantallas pequeñas */
+@media (max-width: 768px) {
+    .two-columns {
+        grid-template-columns: 1fr;
+    }
+}
