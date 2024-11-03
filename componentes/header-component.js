@@ -12,7 +12,7 @@ class HeaderComponent extends HTMLElement {
           </button>
       
        <h5 class="small max ">
-    <a href="/" > <button class="circle transparent"><i class="large fill primary-text">home_work</i></button> </a>  
+    <a href="./" > <button class="circle transparent"><i class="large fill primary-text">home_work</i></button> </a>  
       </h5>
        
       <label class="switch icon small">
