@@ -1,0 +1,55 @@
+
+ <!DOCTYPE html>
+  <html lang="es">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contacto - Webgae</title>
+      <link href="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+      <script type="module" src="https://cdn.jsdelivr.net/npm/beercss@3.7.10/dist/cdn/beer.min.js"></script>
+      <script src="componentes/header-component.js" defer></script>
+    </head>
+  <body>
+    <header-component></header-component>
+    <div class="container padding">
+        <h1 class="center-align">Contáctanos</h1>
+        <p class="center-align">¿Tienes alguna pregunta, proyecto en mente o simplemente quieres saludar? Estamos aquí para escucharte. Contáctanos y conversemos sobre cómo podemos ayudarte a hacer realidad tus ideas.</p>
+        <div class="grid">
+            <div class="s12 m6">
+                <form class="form">
+                    <div class="field label border">
+                      <input type="text" id="nombre" name="nombre" required>
+                      <label for="nombre">Nombre:</label>
+                    </div>
+          
+                    <div class="field label border">
+                      <input type="email" id="email" name="email" required>
+                      <label for="email">Correo electrónico:</label>
+                    </div>
+          
+                    <div class="field textarea fill label">
+                      <textarea id="mensaje" name="mensaje" required></textarea>
+                      <label for="mensaje">Mensaje:</label>
+                    </div>
+          
+                    <button type="submit" class="button primary">Enviar</button>
+                  </form>    
+              
+            </div>
+            <div class="s12 m6 center-align">
+                <h2 class="subtitle">Información de contacto</h2>
+                <p class="paragraph">Dirección: [Tu dirección]</p>
+                <p class="paragraph">Teléfono: [Tu teléfono]</p>
+                <p class="paragraph">Correo electrónico: [Tu correo electrónico]</p>
+            </div>
+        </div>
+    </div> 
+    
+      <footer-component></footer-component>
+      <script src="post.js"></script>    
+      <script src="/componentes/footer-component.js"></script>
+      <script src="/componentes/scripts-component.js"></script>
+  </body>
+  </html>   
+   

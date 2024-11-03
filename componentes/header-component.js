@@ -12,20 +12,15 @@ class HeaderComponent extends HTMLElement {
           </button>
       
        <h5 class="small max ">
-    <a href="/" > <button class="circle transparent"> <img class="responsive surface-bright" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiKYrnrh3gKnagG-HCAb44qxmdDUO6sKVM2ntkNf5JM4gVtvwpPQ1TmJQ2UBpBuk2eOVbjQqhCMarOUq0guy76z-6-tlSuI0JFflGImsdKZFFoej9a5NzIVrDRYGf2jbyV1tpaVsjJcRs8J646OQHiJo72dsoV78RuOXNa5EfDXG5hDJjghhBtspWh-lHw/s1600/logo-1-150x150.png" />    </button> </a>  
+    <a href="/" > <button class="circle transparent"><i class="large fill primary-text">home_work</i></button> </a>  
       </h5>
        
-       <button class="circle transparent">
-            <i>more_vert</i>
-      
-       <menu class="no-wrap">
-        <a href="/" >Inicio</a>
-              <a href="/p/servicios_17.html" >Servicios</a>
-                     <a href="/p/precios.html" > Precios</a>
-                <a href="/p/sobre-nosotros.html" > Nosotros</a>
-      <a href="/p/mis-trabajos.html" > Trabajos</a>
-            </menu>
-          </button>
+      <label class="switch icon small">
+      <input type="checkbox" onclick="mode()"/>
+      <span>
+        <i>dark_mode</i>
+      </span>
+    </label>
       
       
        <a class="circle transparent" href="/blog" >   <i  class="pink-text">rss_feed</i>
@@ -38,12 +33,19 @@ class HeaderComponent extends HTMLElement {
       </header>
       <dialog id="dialog-navigation" class="left">
           <header>
-    <label class="switch icon small">
-      <input type="checkbox" onclick="mode()"/>
-      <span>
-        <i>dark_mode</i>
-      </span>
-    </label>
+          <button class="circle transparent">
+          <i>more_vert</i>
+    
+     <menu class="no-wrap">
+      <a href="/" >Inicio</a>
+            <a href="/p/servicios_17.html" >Servicios</a>
+                   <a href="/p/precios.html" > Precios</a>
+              <a href="/p/sobre-nosotros.html" > Nosotros</a>
+    <a href="/p/mis-trabajos.html" > Trabajos</a>
+          </menu>
+        </button>
+
+   
     
             <nav>
               <button data-ui="#dialog-navigation" class="transparent circle large">
