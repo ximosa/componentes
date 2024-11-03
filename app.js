@@ -61,7 +61,7 @@ function displayPosts() {
                 <a href="/post.html?slug=${post.slug}">${post.title}</a>
             </h2>
             <div class="left">
-                ${post.images[0] ? `<a href="/post.html?slug=${post.slug}"><img  class="circle extra" src="${post.images[0]}" alt="${post.title}" /></a>` : ''}
+                ${post.images[0] ? `<a href="./post.html?slug=${post.slug}"><img  class="circle extra" src="${post.images[0]}" alt="${post.title}" /></a>` : ''}
             </div>
             <div>
                 ${getExcerpt(post.content)}
